@@ -239,7 +239,18 @@ Page {
             name:"Whiteboard"
             filter: 6
         }
-
+        ListElement {
+            name:"Emboss"
+            filter: 9
+        }
+        ListElement {
+            name:"Sketch"
+            filter: 10
+        }
+        ListElement {
+            name:"Neon"
+            filter: 11
+        }
     }
 
     ListModel {
@@ -329,8 +340,20 @@ Page {
             exposure: 20
         }
         ListElement {
+            name:  "ASD"
+            exposure: 21
+        }
+        ListElement {
+            name:  "Flowers"
+            exposure: 22
+        }
+        ListElement {
+            name:  "AR"
+            exposure: 23
+        }
+        ListElement {
             name:  "HDR"
-            exposure: 1000
+            exposure: 24
         }
     }
 
